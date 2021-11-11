@@ -1,0 +1,29 @@
+{
+  "name": "shoppe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "lite-server": "^2.6.1",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanMPC/woodshopconcept.git"
+  },
+  "author": "Esteban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstebanMPC/woodshopconcept/issues"
+  },
+  "homepage": "https://github.com/EstebanMPC/woodshopconcept#readme"
+}
