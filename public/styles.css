@@ -32245,6 +32245,37 @@ video {
   content: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+
+.title {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-family: "Lora", serif;
+}
+
+.text {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Buttons */
+
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
