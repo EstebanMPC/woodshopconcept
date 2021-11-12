@@ -14,9 +14,23 @@
 }
 .subtitle {
   font-family: "Lora", serif;
+  font-size: 24px;
+  letter-spacing: 0.15rem;
 }
 .text {
   font-family: "Source Sans Pro", sans-serif;
 }
 
 /* Buttons */
+
+/* line */
+.vertical-line {
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  transform: translateY(100%);
+  z-index: 1;
+  bottom: 100%;
+  background: chocolate;
+}
