@@ -34,3 +34,14 @@
   bottom: 100%;
   background: chocolate;
 }
+
+.firstimage {
+  background-image: url("../IMG_2947.jpeg");
+  height: 50vh;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
